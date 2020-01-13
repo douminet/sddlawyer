@@ -1,0 +1,104 @@
+@charset "utf-8";
+textarea {
+	-moz-box-shadow:1px 1px 0 #E7E7E7;
+	-moz-box-sizing:border-box;
+	border-color:#CCCCCC #999999 #999999 #CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	font-family:arial,sans-serif;
+	font-size:13px;
+	height:160px;
+	margin:10px auto;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:medium;
+	padding:2px;
+	width:100%;
+}
+pre{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.addPart,.addPartMain{
+	margin: 0 auto;
+	width: 1000px;
+}
+.addText{
+	margin: 0 auto;
+	width: 998px;
+	height: 40px;
+}
+.text{
+	float: left;
+	width: 100px;
+	height: 38px;
+}
+.input{
+	float: left;
+	width: 700px;
+	height: 38px;
+}
+.hr{
+	width:100%;
+	height: 20px;
+	float: left;
+	
+}
+.addMain{
+	margin: 0 auto;
+	width: 998px;
+}
+.textar{
+	width:700px;
+	float:left;
+}
+
+.ie6 .textarduihua1,.ie7 .textarduihua1,.ie8 .textarduihua1,.ie9 .textarduihua1{
+	width: 700px;
+	float: left;
+	background-size: 100% 100%;
+	-moz-background-size:100% 100%;
+  	-webkit-background-size:100% 100%;
+  	-o-background-size:100% 100%;
+  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='http://localhost:8080/sddlawyer/img/duihuakuang.png',
+    sizingMethod='scale');
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.ie6 .textarduihua0,.ie7 .textarduihua0,.ie8 .textarduihua0,.ie9 .textarduihua0{
+	width: 700px;
+	float: right;
+	-ms-background-color:#93FF1D;
+	background-size: 100% 100%;
+	-moz-background-size:100% 100%;
+  	-webkit-background-size:100% 100%;
+  	-o-background-size:100% 100%;
+  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='http://localhost:8080/sddlawyer/img/duihuakuang.png',
+    sizingMethod='scale');
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    text-align: left;
+}
+.anniu{
+	margin: 0 auto;
+	width: 940px;
+	height: 40px;
+}
+.sub{
+	float:left;
+	width: 460px;
+}
+.an{
+	margin: 0 auto;
+	width: 40px;
+}

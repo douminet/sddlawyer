@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Context>
+
+    
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	
+    <Resource
+    	   name="jdbc/mysqlconn"
+		   driverClassName="com.mysql.jdbc.Driver"
+		   url="jdbc:mysql://localhost:3306/sddlawyer?characterEncoding=utf8"
+		   username="root"
+		   password="root"		   
+		   type="javax.sql.DataSource"
+		   maxActive="80"
+		   maxIdle="30"
+		   initialSize="30"
+		   removeAbandoned="true"
+		   maxWait="10000"
+		   removeAbandonedTimeout="300"
+    />
+    
+
+</Context>

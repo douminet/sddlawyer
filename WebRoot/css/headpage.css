@@ -1,0 +1,182 @@
+ @charset "utf-8";
+body{
+	margin: 0px;
+	font-family: inherit;
+	text-align: center;
+	background-color: #f3f3f3;
+}
+div{
+	text-align:center;
+}
+
+.headmain{
+	height: 315px;
+	width: 1004px;
+	margin: 0 auto;
+}
+.headtop{
+	height: 132px;
+	width: 998px;
+	margin: 0 auto;
+	margin-top:1px;
+	background-image: url("../img/tianpinglantian.jpg");
+	float: left;
+}
+.headbottom{
+	height: 132px;
+	width: 998px;
+	margin: 0 auto;
+	margin-top:1px;
+	margin-bottom:1px;
+	float: left;
+}
+.suninhand{
+}
+.headmiddle{
+	height: 42px;
+	width: 998px;
+	margin: 0 auto;
+	margin-top:1px;
+	background-color: #74A8D0;
+	float:left;
+	
+	
+}
+.logo{
+	height: 130px;
+	width: 130px;
+	float: left;
+	text-align: right;
+	padding-top:15px;
+}
+.wangzhi{
+	height: 130px;
+	width: 250px;
+	float: left;
+}
+.pingtai{
+	height: 25px;
+	width: 250px;
+	margin-top:40px;
+	float: left;
+}
+.address{
+	height: 25px;
+	width: 250px;
+	margin-top:4px;
+	float: left;
+}
+.doudou{
+	height: 130px;
+	width: 160px;
+	float: left;
+}
+.shangdoudou{
+	height: 80px;
+	width:159px;
+	float: left;
+	margin-top:32px;
+}
+.phone{
+	height: 130px;
+	width: 300px;
+	float: left;
+}
+.laodongjiufen{
+	height: 25px;
+	width: 300px;
+	margin-top:38px;
+	float: left;
+	text-align: left;
+}
+.zixunrexian{
+	height: 25px;
+	width: 300px;
+	margin-top:4px;
+	float: left;
+	text-align: left;
+}
+.dianhuatubiao{
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-top: 4px;
+}
+.haoma{
+	height: 25px;
+	width: 270px;
+	float: left;
+	text-align: left;
+}
+.middlepart{
+	height: 40px;
+	width: 122px;
+	float: left;
+	background-color: #74A8D0;
+	color: #046000;
+}
+.middlepart a:link { 
+	color:#046000; 
+	text-decoration:none; 
+} 
+.middlepart a:visited { 
+	color:#046000; 
+	text-decoration:none; 	
+} 
+.middlepart a:hover { 
+	color:#046000; 
+	text-decoration:none; 
+} 
+.middlepart a:active { 
+	color:#046000; 
+	text-decoration:none; 
+}
+
+.middlepart_over a:link { 
+	color:white; 
+	text-decoration:none; 
+} 
+.middlepart_over a:visited { 
+	color:white; 
+	text-decoration:none; 	
+} 
+.middlepart_over a:hover { 
+	color:white; 
+	text-decoration:none; 
+} 
+.middlepart_over a:active { 
+	color:white; 
+	text-decoration:none; 
+} 
+
+.middlepart_over{
+	height: 40px;
+	width: 122px;
+	float: left;
+	background-color: #046BBC;
+	color: white;
+}
+.middleparttext{
+	height: 20px;
+	width: 122px;
+	margin: 0 auto;
+	margin-top:10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

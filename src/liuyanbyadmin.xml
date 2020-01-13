@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="liuyan" extends="common" namespace="/">
+		<action name="enterLiuYanList" class="com.sddlawyer.action.LiuYanByAdminAction" method="findByPage">
+			<result name="findByPage">/model/liuYanListByUser.jsp</result>
+		</action>
+		<action name="findLiuYanByPage" class="com.sddlawyer.action.LiuYanByAdminAction" method="findByPage">
+			<result name="findByPage">/model/liuyanbyadmin.jsp</result>
+		</action>
+		<action name="enterAddLiuYan" class="com.sddlawyer.action.LiuYanByAdminAction" method="enterAddLiuYan">
+			<result name="enterAddLiuYan">/model/addLiuYanByUser.jsp</result>
+		</action>
+		<action name="addLiuYan" class="com.sddlawyer.action.LiuYanByAdminAction" method="addLiuYan">
+			<result name="addSuccess" type="redirectAction">
+				<param name="actionName">enterLiuYanList</param>
+				<param name="namespace">/</param>
+				<param name="currentPage">1</param>
+			</result>
+		</action>
+		<action name="addHuiFu" class="com.sddlawyer.action.LiuYanByAdminAction" method="addHuiFu">
+			<result name="addSuccess" type="redirectAction">
+				<param name="actionName">enterLiuYanByAdmin</param>
+				<param name="namespace">/</param>
+				<param name="liuYan.lid">${huiFu.lid}</param>
+			</result>
+		</action>
+		<action name="delLiuYan" class="com.sddlawyer.action.LiuYanByAdminAction" method="delLiuYan">
+			<result name="delSuccess" type="redirectAction">
+				<param name="actionName">findLiuYanByPage</param>
+				<param name="namespace">/</param>
+				<param name="currentPage">1</param>
+			</result>
+		</action>
+		<action name="enterLiuYanByAdmin" class="com.sddlawyer.action.LiuYanByAdminAction" method="findById">
+			<result name="findById">/model/liuyan.jsp</result>
+		</action>
+		<action name="enterLiuYanByUser" class="com.sddlawyer.action.LiuYanByAdminAction" method="findById">
+			<result name="findById">/model/liuyanByUser.jsp</result>
+		</action>
+		<action name="findLiuYan" class="com.sddlawyer.action.LiuYanByAdminAction" method="findAllLiuYan">
+			<result name="liuYanAll">/model/liuyanbyadmin.jsp</result>
+		</action>
+		<action name="delHuiFu" class="com.sddlawyer.action.LiuYanByAdminAction" method="delHuiFuById">
+			<result name="delHuiFuSuc" type="redirectAction">
+				<param name="actionName">enterLiuYanByAdmin</param>
+				<param name="namespace">/</param>
+				<param name="liuYan.lid">${liuYan.lid}</param>
+			</result>
+		</action>
+		
+		
+	</package>
+</struts>
+

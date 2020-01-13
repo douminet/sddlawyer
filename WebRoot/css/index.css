@@ -1,0 +1,36 @@
+ @charset "utf-8";
+body{
+	margin: 0px;
+	font-family: inherit;
+	text-align: center;
+	background-color: #f3f3f3;
+}
+div{
+	text-align:center;
+}
+.main{
+	width: 1006px;
+	margin: 0 auto;
+}
+.pagehead{
+	height: 315px;
+	width: 1004px;
+}
+.pagefooter{
+	width: 1004px;
+}
+ .hr{
+	width:100%;
+	height: 20px;
+	float: left;
+	
+}
+.pageleft{
+	height: 530px;
+	width:300px;
+	float: left;
+}
+.pageright{
+	width:698px;
+	float: left;
+}

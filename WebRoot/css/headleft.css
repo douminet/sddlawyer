@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+	font-family: inherit;
+	text-align: center;
+	background-color: #f3f3f3;
+}
+div{
+	text-align:center;
+}
+.leftmain{
+	height: 530px;
+	width:300px;
+	background-color: #ffffff;
+}
+.text{
+	height: 18px;
+	width: 296px;
+	margin: 0 auto;
+	text-align: left;
+}
+.textdz{
+	height: 38px;
+	width: 296px;
+	margin: 0 auto;
+	text-align: left;
+}
+.lefthead{
+	height: 180px;
+	width: 300px;
+}
+.photo{
+	height: 176px;
+	width: 123px;
+	margin: 0 auto;
+}
+.leftmiddle{
+	height: 34px;
+	width: 300px;
+}
+.xingming{
+	height:30px;
+	width: 300px;
+	float: left;
+}
+.textsdd{
+	height: 28px;
+	width: 144px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.leftbottom{
+	height: 308px;
+	width: 300px;
+}
+.rexian,.email,.qq,.wangzhi_left{
+	height: 20px;
+	width: 296px;
+}
+.lianxidizhi{
+	height: 40px;
+	width: 296px;
+}
+.weixin{
+	height: 196px;
+	width:296px;
+}
+.imgwx{
+	height: 196px;
+	width:196px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

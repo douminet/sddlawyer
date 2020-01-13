@@ -1,0 +1,20 @@
+@charset "utf-8";
+.foot{
+	width:1004px;
+	margin: 0 auto;
+	float: left;
+}
+.foot_hr{
+	width:100%;
+	height: 20px;
+	float: left;
+	margin: 0 auto;
+}
+.shengming{
+	width: 80%;
+	margin: 0 auto;
+}
+.beian{
+	width: 40%;
+	margin: 0 auto;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="wenzhang" extends="common" namespace="/">
+		<action name="wenzhang_findWenZhang" class="com.sddlawyer.action.WenZhangByAdminAction" method="findAllWenZhang">
+			<result name="wenzhangAll">/model/wenzhangbyadmin.jsp</result>
+		</action>
+		<action name="wenzhang_findByPage" class="com.sddlawyer.action.WenZhangByAdminAction" method="findByPage">
+			<result name="findByPage">/model/wenzhangbyadmin.jsp</result>
+		</action>
+		<action name="wenzhang_enterAddWenZhang" class="com.sddlawyer.action.WenZhangByAdminAction" method="enterAdd">
+			<result name="enterAdd">/model/addWenZhang.jsp</result>
+		</action>
+		<action name="wenzhang_addWenZhang" class="com.sddlawyer.action.WenZhangByAdminAction" method="addWenZhang">
+			<result name="addSuccess" type="redirectAction">
+				<param name="actionName">wenzhang_findByPage</param>
+				<param name="namespace">/</param>
+				<param name="tablename">${tablename}</param>
+				<param name="currentPage">1</param>
+			</result>
+		</action>
+		<action name="wenzhang_delWenZhang" class="com.sddlawyer.action.WenZhangByAdminAction" method="delWenZhang">
+			<result name="delSuccess" type="redirectAction">
+				<param name="actionName">wenzhang_findByPage</param>
+				<param name="namespace">/</param>
+				<param name="tablename">${tablename}</param>
+				<param name="currentPage">1</param>
+			</result>
+		</action>
+		<action name="wenzhang_enterUpdWenZhang" class="com.sddlawyer.action.WenZhangByAdminAction" method="enterUpd">
+			<result name="enterUpd">/model/updWenZhang.jsp</result>
+		</action>
+		<action name="wenzhang_updWenZhang" class="com.sddlawyer.action.WenZhangByAdminAction" method="updWenZhang">
+			<result name="updSuccess" type="redirectAction">
+				<param name="actionName">wenzhang_findByPage</param>
+				<param name="namespace">/</param>
+				<param name="tablename">${tablename}</param>
+				<param name="currentPage">1</param>
+			</result>
+		</action>
+		<action name="wenzhang_enterWenZhang" class="com.sddlawyer.action.WenZhangByAdminAction" method="enterWenZhang">
+			<result name="enterWenZhang">/model/wenZhang.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="wenzhangbyuser" extends="common" namespace="/">
+		<action name="wenzhang_findByPageByUser" class="com.sddlawyer.action.WenZhangByAdminAction" method="findByPage">
+			<result name="findByPage">/model/wenzhanglistbyuser.jsp</result>
+		</action>
+		<action name="wenzhang_enterWenZhangByUser" class="com.sddlawyer.action.WenZhangByAdminAction" method="enterWenZhang">
+			<result name="enterWenZhang">/model/wenzhangbyuser.jsp</result>
+		</action>
+		<action name="wenzhang_findByAjax" class="com.sddlawyer.action.WenZhangByAdminAction" method="findByAjax">
+			
+		</action>
+	</package>
+</struts>

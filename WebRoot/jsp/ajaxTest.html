@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajaxtest</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>  
+<script type="text/javascript">
+
+$(function(){
+    initData();
+});
+
+function initData(){
+	$.ajax({
+	    type : "post",
+	    //async:false,
+	    url : "wenzhang_findByAjax.action?currentPage=1&tablename=fagui",
+	    dataType : "text",
+	    success : function(data) {
+	    	alert(data);
+	    	 /* $.each(data,function(k,v){
+                 alert(k +":"+ v);
+             }); */
+	    }
+	});
+}
+
+
+</script>
+<body>
+
+</body>
+</html>
